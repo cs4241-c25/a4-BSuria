@@ -31,7 +31,7 @@ let collection = null;
 passport.use(new GitHubStrategy({
         clientID: 'Ov23lij1bsk7SorBLz4i',
         clientSecret: '07de48cca495bdd316c8c887a15bddef62801159',
-        callbackURL: "http://localhost:3000/auth/github/callback"
+        callbackURL: "http://a4-bsuria.glitch.me/auth/github/callback"
     },
     async function (accessToken, refreshToken, profile, done) {
         // This code will run when the user is successfully logged in with GitHub.

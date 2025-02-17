@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import React, { useState } from 'react';
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import "nes.css/css/nes.min.css";
@@ -45,7 +45,7 @@ const submit = async function( event, where ) {
     if (form.checkValidity()) {
         event.preventDefault();
 
-        window.location.href = "http://localhost:3000/auth/github";
+        window.location.href = "http://a4-bsuria.glitch.me/auth/github";
     } else {
         console.log('Form is invalid.');
     }
